@@ -1,0 +1,146 @@
+*
+* Visual Studio Code Server
+*
+* By using the software, you agree to
+* the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
+* the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
+*
+Server bound to /tmp/code-5a063c2d-0124-4cea-bb10-ff8cf8fde4b9
+Extension host agent listening on /tmp/code-5a063c2d-0124-4cea-bb10-ff8cf8fde4b9
+
+[17:47:42] 
+
+
+
+
+[17:47:43] Extension host agent started.
+[17:47:43] Started initializing default profile extensions in extensions installation folder. file:///home/kasper/.vscode-server/extensions
+[17:47:43] [<unknown>][2aab5332][ManagementConnection] New connection established.
+[17:47:43] [<unknown>][07097c0a][ExtensionHostConnection] New connection established.
+[17:47:43] Completed initializing default profile extensions in extensions installation folder. file:///home/kasper/.vscode-server/extensions
+[17:47:46] [<unknown>][07097c0a][ExtensionHostConnection] <773> Launched Extension Host Process.
+rejected promise not handled within 1 second: CodeExpectedError: Could not find pty 4 on pty host
+stack trace: CodeExpectedError: Could not find pty 4 on pty host
+    at $.W (file:///home/kasper/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/platform/terminal/node/ptyHostMain.js:47:6392)
+    at $.updateTitle (file:///home/kasper/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/platform/terminal/node/ptyHostMain.js:47:1839)
+    at O.s.<computed> (file:///home/kasper/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/platform/terminal/node/ptyHostMain.js:46:2962)
+    at Object.call (file:///home/kasper/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/platform/terminal/node/ptyHostMain.js:28:4204)
+    at rl.s (file:///home/kasper/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/platform/terminal/node/ptyHostMain.js:26:81166)
+    at rl.q (file:///home/kasper/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/platform/terminal/node/ptyHostMain.js:26:80689)
+    at ps.value (file:///home/kasper/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/platform/terminal/node/ptyHostMain.js:26:80091)
+    at x.B (file:///home/kasper/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/platform/terminal/node/ptyHostMain.js:26:2373)
+    at x.fire (file:///home/kasper/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/platform/terminal/node/ptyHostMain.js:26:2591)
+    at process.C (file:///home/kasper/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/platform/terminal/node/ptyHostMain.js:24:29879)
+    at process.emit (node:events:518:28)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[17:47:48] Error [CodeExpectedError]: Could not find pty 4 on pty host
+    at $.W (file:///home/kasper/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/platform/terminal/node/ptyHostMain.js:47:6392)
+    at $.updateTitle (file:///home/kasper/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/platform/terminal/node/ptyHostMain.js:47:1839)
+    at O.s.<computed> (file:///home/kasper/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/platform/terminal/node/ptyHostMain.js:46:2962)
+    at Object.call (file:///home/kasper/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/platform/terminal/node/ptyHostMain.js:28:4204)
+    at rl.s (file:///home/kasper/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/platform/terminal/node/ptyHostMain.js:26:81166)
+    at rl.q (file:///home/kasper/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/platform/terminal/node/ptyHostMain.js:26:80689)
+    at ps.value (file:///home/kasper/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/platform/terminal/node/ptyHostMain.js:26:80091)
+    at x.B (file:///home/kasper/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/platform/terminal/node/ptyHostMain.js:26:2373)
+    at x.fire (file:///home/kasper/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/platform/terminal/node/ptyHostMain.js:26:2591)
+    at process.C (file:///home/kasper/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/platform/terminal/node/ptyHostMain.js:24:29879)
+    at process.emit (node:events:518:28)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+rejected promise not handled within 1 second: CodeExpectedError: Could not find pty 4 on pty host
+stack trace: CodeExpectedError: Could not find pty 4 on pty host
+    at $.W (file:///home/kasper/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/platform/terminal/node/ptyHostMain.js:47:6392)
+    at $.updateIcon (file:///home/kasper/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/platform/terminal/node/ptyHostMain.js:47:1889)
+    at O.s.<computed> (file:///home/kasper/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/platform/terminal/node/ptyHostMain.js:46:2962)
+    at Object.call (file:///home/kasper/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/platform/terminal/node/ptyHostMain.js:28:4204)
+    at rl.s (file:///home/kasper/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/platform/terminal/node/ptyHostMain.js:26:81166)
+    at rl.q (file:///home/kasper/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/platform/terminal/node/ptyHostMain.js:26:80689)
+    at ps.value (file:///home/kasper/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/platform/terminal/node/ptyHostMain.js:26:80091)
+    at x.B (file:///home/kasper/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/platform/terminal/node/ptyHostMain.js:26:2373)
+    at x.fire (file:///home/kasper/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/platform/terminal/node/ptyHostMain.js:26:2591)
+    at process.C (file:///home/kasper/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/platform/terminal/node/ptyHostMain.js:24:29879)
+    at process.emit (node:events:518:28)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[17:47:48] Error [CodeExpectedError]: Could not find pty 4 on pty host
+    at $.W (file:///home/kasper/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/platform/terminal/node/ptyHostMain.js:47:6392)
+    at $.updateIcon (file:///home/kasper/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/platform/terminal/node/ptyHostMain.js:47:1889)
+    at O.s.<computed> (file:///home/kasper/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/platform/terminal/node/ptyHostMain.js:46:2962)
+    at Object.call (file:///home/kasper/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/platform/terminal/node/ptyHostMain.js:28:4204)
+    at rl.s (file:///home/kasper/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/platform/terminal/node/ptyHostMain.js:26:81166)
+    at rl.q (file:///home/kasper/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/platform/terminal/node/ptyHostMain.js:26:80689)
+    at ps.value (file:///home/kasper/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/platform/terminal/node/ptyHostMain.js:26:80091)
+    at x.B (file:///home/kasper/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/platform/terminal/node/ptyHostMain.js:26:2373)
+    at x.fire (file:///home/kasper/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/platform/terminal/node/ptyHostMain.js:26:2591)
+    at process.C (file:///home/kasper/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/platform/terminal/node/ptyHostMain.js:24:29879)
+    at process.emit (node:events:518:28)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+New EH opened, aborting shutdown
+[17:52:43] New EH opened, aborting shutdown
+[18:02:53] [<unknown>][2aab5332][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[18:02:54] [<unknown>][07097c0a][ExtensionHostConnection] <773> Extension Host Process exited with code: 0, signal: null.
+Last EH closed, waiting before shutting down
+[18:02:54] Last EH closed, waiting before shutting down
+[18:04:03] [<unknown>][f7522ec0][ExtensionHostConnection] New connection established.
+[18:04:03] [<unknown>][f7522ec0][ExtensionHostConnection] <12261> Launched Extension Host Process.
+[18:04:03] [<unknown>][64727ebf][ManagementConnection] New connection established.
+rejected promise not handled within 1 second: CodeExpectedError: Could not find pty 9 on pty host
+stack trace: CodeExpectedError: Could not find pty 9 on pty host
+    at $.W (file:///home/kasper/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/platform/terminal/node/ptyHostMain.js:47:6392)
+    at $.updateTitle (file:///home/kasper/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/platform/terminal/node/ptyHostMain.js:47:1839)
+    at O.s.<computed> (file:///home/kasper/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/platform/terminal/node/ptyHostMain.js:46:2962)
+    at Object.call (file:///home/kasper/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/platform/terminal/node/ptyHostMain.js:28:4204)
+    at rl.s (file:///home/kasper/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/platform/terminal/node/ptyHostMain.js:26:81166)
+    at rl.q (file:///home/kasper/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/platform/terminal/node/ptyHostMain.js:26:80689)
+    at ps.value (file:///home/kasper/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/platform/terminal/node/ptyHostMain.js:26:80091)
+    at x.B (file:///home/kasper/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/platform/terminal/node/ptyHostMain.js:26:2373)
+    at x.fire (file:///home/kasper/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/platform/terminal/node/ptyHostMain.js:26:2591)
+    at process.C (file:///home/kasper/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/platform/terminal/node/ptyHostMain.js:24:29879)
+    at process.emit (node:events:518:28)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[18:04:05] Error [CodeExpectedError]: Could not find pty 9 on pty host
+    at $.W (file:///home/kasper/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/platform/terminal/node/ptyHostMain.js:47:6392)
+    at $.updateTitle (file:///home/kasper/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/platform/terminal/node/ptyHostMain.js:47:1839)
+    at O.s.<computed> (file:///home/kasper/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/platform/terminal/node/ptyHostMain.js:46:2962)
+    at Object.call (file:///home/kasper/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/platform/terminal/node/ptyHostMain.js:28:4204)
+    at rl.s (file:///home/kasper/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/platform/terminal/node/ptyHostMain.js:26:81166)
+    at rl.q (file:///home/kasper/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/platform/terminal/node/ptyHostMain.js:26:80689)
+    at ps.value (file:///home/kasper/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/platform/terminal/node/ptyHostMain.js:26:80091)
+    at x.B (file:///home/kasper/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/platform/terminal/node/ptyHostMain.js:26:2373)
+    at x.fire (file:///home/kasper/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/platform/terminal/node/ptyHostMain.js:26:2591)
+    at process.C (file:///home/kasper/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/platform/terminal/node/ptyHostMain.js:24:29879)
+    at process.emit (node:events:518:28)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+rejected promise not handled within 1 second: CodeExpectedError: Could not find pty 9 on pty host
+stack trace: CodeExpectedError: Could not find pty 9 on pty host
+    at $.W (file:///home/kasper/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/platform/terminal/node/ptyHostMain.js:47:6392)
+    at $.updateIcon (file:///home/kasper/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/platform/terminal/node/ptyHostMain.js:47:1889)
+    at O.s.<computed> (file:///home/kasper/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/platform/terminal/node/ptyHostMain.js:46:2962)
+    at Object.call (file:///home/kasper/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/platform/terminal/node/ptyHostMain.js:28:4204)
+    at rl.s (file:///home/kasper/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/platform/terminal/node/ptyHostMain.js:26:81166)
+    at rl.q (file:///home/kasper/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/platform/terminal/node/ptyHostMain.js:26:80689)
+    at ps.value (file:///home/kasper/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/platform/terminal/node/ptyHostMain.js:26:80091)
+    at x.B (file:///home/kasper/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/platform/terminal/node/ptyHostMain.js:26:2373)
+    at x.fire (file:///home/kasper/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/platform/terminal/node/ptyHostMain.js:26:2591)
+    at process.C (file:///home/kasper/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/platform/terminal/node/ptyHostMain.js:24:29879)
+    at process.emit (node:events:518:28)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[18:04:05] Error [CodeExpectedError]: Could not find pty 9 on pty host
+    at $.W (file:///home/kasper/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/platform/terminal/node/ptyHostMain.js:47:6392)
+    at $.updateIcon (file:///home/kasper/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/platform/terminal/node/ptyHostMain.js:47:1889)
+    at O.s.<computed> (file:///home/kasper/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/platform/terminal/node/ptyHostMain.js:46:2962)
+    at Object.call (file:///home/kasper/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/platform/terminal/node/ptyHostMain.js:28:4204)
+    at rl.s (file:///home/kasper/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/platform/terminal/node/ptyHostMain.js:26:81166)
+    at rl.q (file:///home/kasper/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/platform/terminal/node/ptyHostMain.js:26:80689)
+    at ps.value (file:///home/kasper/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/platform/terminal/node/ptyHostMain.js:26:80091)
+    at x.B (file:///home/kasper/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/platform/terminal/node/ptyHostMain.js:26:2373)
+    at x.fire (file:///home/kasper/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/platform/terminal/node/ptyHostMain.js:26:2591)
+    at process.C (file:///home/kasper/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/server/out/vs/platform/terminal/node/ptyHostMain.js:24:29879)
+    at process.emit (node:events:518:28)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)

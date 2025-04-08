@@ -1,0 +1,4 @@
+Listening on 127.0.0.1:33877
+[2025-04-08 18:07:38] info Disposed of connection to running server.
+[2025-04-08 18:07:38] info Checking /home/kasper/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/log.txt and /home/kasper/.vscode-server/cli/servers/Stable-4437686ffebaf200fa4a6e6e67f735f3edf24ada/pid.txt for a running server...
+[2025-04-08 18:07:38] info Found running server (pid=741)
